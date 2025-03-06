@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Create File",
+        "description": "Creates a file with given content.",
+        "endpoint": "/create-file",
+        "method": "POST",
+        "parameters": [
+            "filename",
+            "content"
+        ]
+    },
+    {
+        "name": "Get Weather",
+        "description": "Fetches weather for a given city.",
+        "endpoint": "/weather",
+        "method": "GET",
+        "parameters": [
+            "city"
+        ]
+    },
+    {
+        "name": "Generate Api Json",
+        "description": "Fetches OpenAPI schema and generates 'apis.json' dynamically.",
+        "endpoint": "/generate-api-json",
+        "method": "GET",
+        "parameters": []
+    }
+]
